@@ -4,6 +4,7 @@ filetype plugin indent on
 set encoding=utf-8
 
 set autoindent              " Sets autoindentation 
+set number
 set smartindent
 set relativenumber          " Sets the number of line 
 set tabstop=4               " The width of a TAB is set to 4
