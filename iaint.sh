@@ -32,6 +32,9 @@ cd $current_directory
 show "[+] Copy .vimrc to $HOME/.vimrc"
 cp dotfiles/.vimrc $HOME/.vimrc
 
+show "[+] Copy .Xdefaults to $HOME/.Xdefault"
+cp dotfiles/.Xdefaults $HOME/.Xdefaults
+
 show "[?] mkdir -p $HOME/.config/i3/config"
 mkdir -p $HOME/.config/i3/
 

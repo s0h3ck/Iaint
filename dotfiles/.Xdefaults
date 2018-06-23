@@ -1,0 +1,78 @@
+! Appearance
+URxvt.background: #2B2B2B
+URxvt.foreground: #DEDEDE
+!URxvt.transparent: true
+URxvt.saveLines: 20000
+URxvt*borderless: 1
+URxvt*.shading: 10
+URxvt.letterSpace:-1 
+URxvt.scrollBar: false
+URxvt.scrollstyle: rxvt
+!URxvt*scrollWithBuffer: true
+!URxvt*scrollTtyOutput: false
+!URxvt*scrollTtyKeypress: true
+!URxvt.colorUL: $86a2be
+
+! Table system + Firefox url launcher
+Rxvt.perl-ext-common:      default,matcher,tabbed
+URxvt.matcher.button:       1
+URxvt.urlLauncher: firefox
+URxvt.tabbed.tabbar-fg: 7
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 6
+URxvt.tabbed.tab-bg: 0
+
+! Fonts
+#URxvt.font: xft:DejaVu Sans Mono for Powerline:size=10:antialias=true, \
+#            xft:Kochi Gothic:antialias=true,\
+#            xft:Baekmuk Gulim
+URxvt.font: xft:DejaVu Sans Mono:size=10
+#URxvt.font:     xft:bitstream vera sans mono:size=11:antialias=true,\
+#URxvt.boldFont: xft:bitstream vera sans mono:bold:size=11:antialias=true
+URxvt.allow_bold: true
+
+! Change font size on Control-Plus/Minus
+URxvt.keysym.Control-0x2b: perl:font-size:increase
+URxvt.keysym.Control-0x2d: perl:font-size:decrease
+
+! Disable scrollback buffer in secondary screen
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+!urxvt color scheme:
+! special
+*.foreground:   #eceff1
+*.background:   #263238
+*.cursorColor:  #eceff1
+
+! black
+*.color0:       #263238
+*.color8:       #eceff1
+
+! red
+*.color1:       #ff5000
+*.color9:       #375639
+
+! green
+*.color2:       #8bc34a
+*.color10:      #9ccc65
+
+! yellow
+*.color3:       #ffc107
+*.color11:      #ffa000
+
+! blue
+*.color4:       #03a9f4
+*.color12:      #56a2c4
+
+! magenta
+*.color5:       #e250d5
+*.color13:      #36ed39
+
+! cyan
+*.color6:       #009688
+*.color14:      #26a69a
+
+! white
+*.color7:       #cfd8dc
+*.color15: 	#eceff1
