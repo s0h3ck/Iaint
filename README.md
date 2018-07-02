@@ -4,7 +4,7 @@ Light methodology to take notes and feel somewhat light :}
 
 ## Installation script
 ```text
-pacman -Syu vim texlive-most maim feh evince ctags xclip
+pacman -Syu vim texlive-most maim feh evince ctags xclip devmon
 sh iaint.sh
 ```
 
@@ -21,6 +21,7 @@ sh iaint.sh
 * evince
 * ctags
 * xclip
+* devmon
 ```
 
 ### Proposition
