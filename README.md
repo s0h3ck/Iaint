@@ -26,11 +26,36 @@ sh iaint.sh
 
 ### Proposition
 ```
+ROOT
+├── .root
 ├── labs
-│   ├── air-gap-bond-007
-│   │   └── stuff.sql
+│   ├── .labs
+│   └── lab01
+│       ├── .lab
+│       ├── content
+│       │   └── ed7002b439e9ac845f22357d822bac1444730fbdb6016d3ec9432297b9ec9f73.zip
+│       ├── draft
+│       │   ├── .draft
+│       │   └── draft.md
+│       ├── writeup
+│       │   ├── .writeup
+│       │   └── writeup.md
+│       └── flag.txt
 ├── material
-└── notes.txt
+│   ├── .material
+│   └── material.pdf
+├── flags
+│   ├── .flags
+│   └── flags.txt
+├── report
+│   ├── .report
+│   │
+│   ├── makefile
+│   ├── screenshots
+│   ├── references.bib
+│   ├── report.tex
+│   └── report.pdf
+└── TODO
 ```
 
 ###### Tested on ArchLinux
