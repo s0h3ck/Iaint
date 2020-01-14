@@ -1,6 +1,7 @@
 ! Appearance
-URxvt.background: #2B2B2B
-URxvt.foreground: #DEDEDE
+#URxvt.background: #2B2B2B
+URxvt.background: #272934
+URxvt.foreground: #FFFFFF
 URxvt.saveLines: 20000
 URxvt.borderless: 1
 URxvt.shading: 10
@@ -16,6 +17,9 @@ URxvt.tabbed.tabbar-fg: 7
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 6
 URxvt.tabbed.tab-bg: 0
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 
 ! Fonts
 #URxvt.font: xft:DejaVu Sans Mono for Powerline:size=10:antialias=true, \
@@ -53,8 +57,8 @@ URxvt.secondaryScroll: 0
 *.color9:       #ff0000
 
 ! green
-*.color2:       #99fabc
-*.color10:      #9ccc65
+#*.color2:       #99fabc
+#*.color10:      #9ccc65
 
 ! yellow
 *.color3:       #ffc107
@@ -62,7 +66,9 @@ URxvt.secondaryScroll: 0
 
 ! blue
 *.color4:       #0851af
-*.color12:      #56a2c4
+#*.color4:       #357AF0
+*.color12:      #357AF0
+#*.color12:      #56a2c4
 
 ! magenta
 *.color5:       #e250d5
@@ -74,4 +80,6 @@ URxvt.secondaryScroll: 0
 
 ! white
 *.color7:       #cfd8dc
-*.color15: 	    #eceff1
+#*.color7:       #FFFFFF
+#*.color15:      #FFFFFF
+*.color15: 	#eceff1
